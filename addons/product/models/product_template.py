@@ -63,7 +63,7 @@ class ProductTemplate(models.Model):
             ('consu', "Consumable"),
             ('service', "Service"),
             ('combo', "Combo"),
-             ('product', "Storable Product"),
+            ('product', "Storable Product"),
         ],
         required=True,
         default='consu',
